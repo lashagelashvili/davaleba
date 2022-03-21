@@ -1,3 +1,10 @@
+export interface UserPosts {
+    userId: number,
+    id: number,
+    title: string,
+    body: string
+}
+
 export interface UserDetails {
     id: number,
     name: string,
