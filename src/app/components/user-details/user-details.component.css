@@ -1,0 +1,8 @@
+.user-container {
+  display: flex;
+  background-color: aquamarine;
+  max-width: 80%;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: center;
+}

@@ -1,0 +1,39 @@
+<div class="user-container">
+    <div>
+        <h3>name</h3>
+        <p>{{ userDetails.name }}</p>
+        <h3>username</h3>
+        <p>{{ userDetails.username }}</p>
+        <h3>email</h3>
+        <p>{{ userDetails.email }}</p>
+        <h3>phone</h3>
+        <p>{{ userDetails.phone }}</p>
+        <h3>website</h3>
+        <p>{{ userDetails.website }}</p>
+    </div>
+    <div>
+        <h3>address</h3>
+        <h3>street</h3>
+        <p>{{ userDetails.address.street }}</p>
+        <h3>suite</h3>
+        <p>{{ userDetails.address.suite }}</p>
+        <h3>city</h3>
+        <p>{{ userDetails.address.city }}</p>
+        <h3>zipcode</h3>
+        <p>{{ userDetails.address.zipcode }}</p>
+        <h3>Lat</h3>
+        <p>{{ userDetails.address.geo.lat }}</p>
+        <h3>Lng</h3>
+        <p>{{ userDetails.address.geo.lng }}</p>
+    </div>
+    <div>
+        <h3>company</h3>
+        <h3>name</h3>
+        <p>{{ userDetails.company.name }}</p>
+        <h3>catchPhrase</h3>
+        <p>{{ userDetails.company.catchPhrase }}</p>
+        <h3>bs</h3>
+        <p>{{ userDetails.company.bs }}</p>
+    </div>
+</div>
+<button (click)="onButtonClick()">მომხმარებლის პოსტები</button>
