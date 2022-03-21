@@ -1,0 +1,20 @@
+.user-container,
+.btn-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 2em;
+  align-items: flex-start;
+}
+
+mat-card {
+  min-width: 300px;
+  margin: 2em;
+}
+
+mat-card-title {
+  padding-bottom: 1.5em;
+}
+
+h3 {
+  font-weight: 500;
+}
