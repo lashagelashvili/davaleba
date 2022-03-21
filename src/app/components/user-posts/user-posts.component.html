@@ -1,1 +1,14 @@
-<p>user-posts works!</p>
+<mat-toolbar>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+        <mat-icon (click)="onBackClick()">arrow_back</mat-icon>
+    </button>
+    <span *ngIf="userDetails">{{ userDetails.name }}</span>
+</mat-toolbar>
+<div class="container">
+    <mat-card *ngFor="let post of posts">
+        <mat-card-content>
+            <h3>{{ post.title }}</h3>
+            <p>{{ post.body }}</p>
+        </mat-card-content>
+    </mat-card>
+</div>
