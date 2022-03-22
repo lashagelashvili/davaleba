@@ -8,7 +8,8 @@ const routes: Routes = [
   { path: 'users', component: UsersComponent },
   { path: 'user/:id', component: UserDetailsComponent },
   { path: 'user/:id/posts', component: UserPostsComponent },
-  { path: '**', redirectTo: 'users' }
+  { path: '**', redirectTo: 'users' },
+  { path: '', component: UsersComponent }
 ];
 
 @NgModule({
